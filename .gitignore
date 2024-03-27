@@ -1,0 +1,6 @@
+# Ignore Python bytcode files
+__pychache__/
+
+#Ignore virtual environment directories
+venv/
+env/

@@ -1,0 +1,247 @@
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 13
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2444
+"GET /about HTTP/1.1" 200 8
+"GET / HTTP/1.1" 200 13
+"GET / HTTP/1.1" 200 13
+"GET / HTTP/1.1" 200 13
+"GET /about HTTP/1.1" 200 8
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2396
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 37
+"GET /about HTTP/1.1" 200 55
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 37
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2443
+"GET /about HTTP/1.1" 200 80
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\views.py", line 5, in main
+    return render(request, "index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+"GET / HTTP/1.1" 500 79346
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2443
+"GET /about HTTP/1.1" 200 55
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\views.py", line 5, in main
+    return render(request, "index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+"GET / HTTP/1.1" 500 79471
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homeworks\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\views.py", line 5, in main
+    return render(request, "index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\template\loaders\base.py", line 23, in get_template
+    contents = self.get_contents(origin)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\template\loaders\cached.py", line 26, in get_contents
+    return origin.loader.get_contents(origin)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\template\loaders\filesystem.py", line 22, in get_contents
+    with open(origin.name, encoding=self.engine.file_charset) as fp:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument: 'C:\\Users\\zeidm\\My_projects\\django_homeworks\\homeworks\\homework_1\templates\\homework_1\\index.html'
+"GET / HTTP/1.1" 500 110696
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homeworks\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homeworks\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\views.py", line 5, in main
+    return render(request, "index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\template\loaders\base.py", line 23, in get_template
+    contents = self.get_contents(origin)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\template\loaders\cached.py", line 26, in get_contents
+    return origin.loader.get_contents(origin)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\template\loaders\filesystem.py", line 22, in get_contents
+    with open(origin.name, encoding=self.engine.file_charset) as fp:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument: 'C:\\Users\\zeidm\\My_projects\\django_homeworks\\homeworks\\homework_1\templates\\homework_1\\index.html'
+"GET / HTTP/1.1" 500 110821
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homeworks\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homeworks\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 155
+"GET /about HTTP/1.1" 200 55
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 162
+"GET / HTTP/1.1" 200 162
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 241
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 295
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2443
+"GET / HTTP/1.1" 200 335
+"GET /about HTTP/1.1" 200 235
+"GET / HTTP/1.1" 200 335
+"GET /about HTTP/1.1" 200 235
+"GET /about HTTP/1.1" 200 235
+"GET /about HTTP/1.1" 200 235
+"GET /about HTTP/1.1" 200 235
+"GET /about HTTP/1.1" 200 235
