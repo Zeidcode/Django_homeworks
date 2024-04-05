@@ -1,0 +1,34 @@
+<!-- ordered_products.html -->
+{% extends 'base.html' %}
+
+{% block title %}Ordered Products - My Website{% endblock %}
+
+{% block content %}
+    <h2>Ordered Products</h2>
+    <h3>Last 7 days</h3>
+    <ul>
+        {% for product in ordered_products.week %}
+            <li>{{ product.name }}</li>
+        {% empty %}
+            <li>No products ordered in the last 7 days</li>
+        {% endfor %}
+    </ul>
+    
+    <h3>Last 30 days</h3>
+    <ul>
+        {% for product in ordered_products.month %}
+            <li>{{ product.name }}</li>
+        {% empty %}
+            <li>No products ordered in the last 30 days</li>
+        {% endfor %}
+    </ul>
+    
+    <h3>Last 365 days</h3>
+    <ul>
+        {% for product in ordered_products.year %}
+            <li>{{ product.name }}</li>
+        {% empty %}
+            <li>No products ordered in the last 365 days</li>
+        {% endfor %}
+    </ul>
+{% endblock %} 

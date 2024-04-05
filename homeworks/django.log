@@ -245,3 +245,104 @@ Not Found: /favicon.ico
 "GET /about HTTP/1.1" 200 235
 "GET /about HTTP/1.1" 200 235
 "GET /about HTTP/1.1" 200 235
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+"GET / HTTP/1.1" 400 71727
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zeidm\My_projects\django_homeworks\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 400 71565
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 335
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2443
+"GET /about HTTP/1.1" 200 235
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2660
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2711
+Not Found: /about
+"GET /about HTTP/1.1" 404 2693
+Not Found: /client/<int:client_id>/
+"GET /client/%3Cint:client_id%3E/ HTTP/1.1" 404 2763
+Not Found: /client/<1>/
+"GET /client/%3C1%3E/ HTTP/1.1" 404 2727
+Not Found: /client/<int:1>/
+"GET /client/%3Cint:1%3E/ HTTP/1.1" 404 2739
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2591
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2591
+Not Found: /about
+"GET /about HTTP/1.1" 404 2624
+"GET /clients HTTP/1.1" 301 0
+"GET /clients/ HTTP/1.1" 200 491
+"GET /products/ HTTP/1.1" 200 493
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 696
+"GET /clients/ HTTP/1.1" 200 491
+"GET /products/ HTTP/1.1" 200 493
+"GET /orders/ HTTP/1.1" 200 489
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 696
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homework_1\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 696
+"GET /orders/ HTTP/1.1" 200 489
+"GET /ordered_products/ HTTP/1.1" 200 886
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 696
+"GET /orders/ HTTP/1.1" 200 687
+"GET /ordered_products/ HTTP/1.1" 200 886
