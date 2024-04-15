@@ -653,3 +653,52 @@ Watching for file changes with StatReloader
 "GET /create/ HTTP/1.1" 200 1233
 "GET /orders/ HTTP/1.1" 200 687
 "GET /ordered_products/ HTTP/1.1" 200 886
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 696
+"GET /clients/ HTTP/1.1" 200 491
+"GET /products/ HTTP/1.1" 200 690
+"GET /orders/ HTTP/1.1" 200 687
+"GET /ordered_products/ HTTP/1.1" 200 886
+"GET /clients/ HTTP/1.1" 200 491
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 696
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 696
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3165
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homeworks\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 9699
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13578
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+"GET /__debug__/render_panel/?store_id=28c2c9dbe4bd4c658f07e885dede18f3&panel_id=SQLPanel HTTP/1.1" 200 115
+"GET /__debug__/render_panel/?store_id=28c2c9dbe4bd4c658f07e885dede18f3&panel_id=HistoryPanel HTTP/1.1" 200 2298
+"GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3515
+"GET /__debug__/render_panel/?store_id=28c2c9dbe4bd4c658f07e885dede18f3&panel_id=VersionsPanel HTTP/1.1" 200 621
+"GET /__debug__/render_panel/?store_id=28c2c9dbe4bd4c658f07e885dede18f3&panel_id=SettingsPanel HTTP/1.1" 200 25966
+"GET /__debug__/render_panel/?store_id=28c2c9dbe4bd4c658f07e885dede18f3&panel_id=CachePanel HTTP/1.1" 200 1413
+"GET /__debug__/render_panel/?store_id=28c2c9dbe4bd4c658f07e885dede18f3&panel_id=SignalsPanel HTTP/1.1" 200 2107
+"GET /__debug__/history_refresh/?store_id=28c2c9dbe4bd4c658f07e885dede18f3&exclude_history=True HTTP/1.1" 200 1588
+"GET /__debug__/history_sidebar/?store_id=28c2c9dbe4bd4c658f07e885dede18f3&exclude_history=True HTTP/1.1" 200 7570
+"GET /__debug__/history_sidebar/?store_id=28c2c9dbe4bd4c658f07e885dede18f3&exclude_history=True HTTP/1.1" 200 7570
+"GET /__debug__/render_panel/?store_id=28c2c9dbe4bd4c658f07e885dede18f3&panel_id=SettingsPanel HTTP/1.1" 200 25966
+"GET /__debug__/render_panel/?store_id=28c2c9dbe4bd4c658f07e885dede18f3&panel_id=TemplatesPanel HTTP/1.1" 200 6130
+"GET /__debug__/template_source/?template=base.html&template_origin=IkM6XFxVc2Vyc1xcemVpZG1cXE15X3Byb2plY3RzXFxkamFuZ29faG9tZXdvcmtzXFxob21ld29ya3NcXGhvbWV3b3JrXzFcXHRlbXBsYXRlc1xcaG9tZXdvcmtfMVxcYmFzZS5odG1sIg:1rwF8Y:9g-Ma30rqc-D_WXDtaQOIpL6gruu5eNTqaSIL3sfB2s HTTP/1.1" 200 1152
+"GET /__debug__/template_source/?template=index.html&template_origin=IkM6XFxVc2Vyc1xcemVpZG1cXE15X3Byb2plY3RzXFxkamFuZ29faG9tZXdvcmtzXFxob21ld29ya3NcXGhvbWV3b3JrXzFcXHRlbXBsYXRlc1xcaG9tZXdvcmtfMVxcaW5kZXguaHRtbCI:1rwF8Y:hb78f1VEwhdyZcAcxb3qEoHzTIR9VUVlSJN87KHOgGM HTTP/1.1" 200 901
+"GET /__debug__/render_panel/?store_id=28c2c9dbe4bd4c658f07e885dede18f3&panel_id=RequestPanel HTTP/1.1" 200 1560
+"GET /__debug__/render_panel/?store_id=28c2c9dbe4bd4c658f07e885dede18f3&panel_id=SQLPanel HTTP/1.1" 200 115
+"GET /__debug__/render_panel/?store_id=28c2c9dbe4bd4c658f07e885dede18f3&panel_id=StaticFilesPanel HTTP/1.1" 200 34081
+"GET /__debug__/render_panel/?store_id=28c2c9dbe4bd4c658f07e885dede18f3&panel_id=CachePanel HTTP/1.1" 200 1413
+"GET /__debug__/render_panel/?store_id=28c2c9dbe4bd4c658f07e885dede18f3&panel_id=SignalsPanel HTTP/1.1" 200 2107
+"GET /clients/ HTTP/1.1" 200 9895
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+"GET /orders/ HTTP/1.1" 200 10087
+"GET /orders/ HTTP/1.1" 200 10087
+"GET /__debug__/render_panel/?store_id=8318016edb0c40b5887d580ec333c390&panel_id=ProfilingPanel HTTP/1.1" 200 35538
+C:\Users\zeidm\My_projects\django_homeworks\homeworks\homeworks\settings.py changed, reloading.

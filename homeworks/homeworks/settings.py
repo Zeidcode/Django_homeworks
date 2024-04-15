@@ -9,12 +9,19 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-+nz!rvvc0k$6j(+et%gun)=b5no76rq*td=%n=*0%ix_-=dqpw'
-
+SECRET_KEY = os.getenv("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
+
+SESSSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
 
 ALLOWED_HOSTS = [
+    "djangohomeworks.pythonanywhere.com",
+]
+
+INTERNAL_IPS = [
+    '127.0.0.1',
 ]
 
 
@@ -28,9 +35,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'homework_1',
+    'debug_toolbar',
 ]
 
 MIDDLEWARE = [
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -66,8 +75,15 @@ WSGI_APPLICATION = 'homeworks.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'djangohomeworks$default',
+        'USER': 'djangohomeworks',
+        'PASSWORD': os.getenv('MYSQL_PASSWORD'),
+        'HOST': 'djangohomeworks.mysql.pythonanywhere-services.com',
+        'OPTIONS': {
+            'init_command': "SET NAMES 'utf8mb4' ; SET sql_mode='STRICT_TRANS_TABLES'",
+            'charset': 'utf8mb4',
+        },
     }
 }
 
@@ -107,6 +123,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
 STATIC_URL = 'static/'
+STATIC_ROOT = BASE_DIR / 'static/ '
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
@@ -137,3 +157,4 @@ LOGGING = {
         },
     },
 }
+
