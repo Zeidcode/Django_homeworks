@@ -1,3 +1,4 @@
+<!-- products.html -->
 {% extends 'base.html' %}
 
 {% block title %}Products - My Website{% endblock %}
@@ -7,6 +8,10 @@
     <ul>
         {% for product in products %}
             <li>{{ product.name }} - {{ product.description }} - ${{ product.price }}</li>
+            <a href="{% url 'product_update' pk=product.pk %}" class="btn btn-info">Edit</a>
         {% endfor %}
     </ul>
+    
+    <!-- Добавляем кнопку для создания нового продукта -->
+    <a href="{% url 'product_create' %}" class="btn btn-primary">Create New Product</a>
 {% endblock %}

@@ -1,8 +1,9 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from .models import Client, Product, Order
 from django.utils import timezone
 from datetime import timedelta
 from .models import Order, Product
+from .forms import ProductForm
 
 def index(request):
     return render(request, 'index.html')
@@ -35,3 +36,24 @@ def ordered_products(request):
         ordered_products[interval] = products
 
     return render(request, 'ordered_products.html', {'ordered_products': ordered_products})
+
+def product_create(request):
+    if request.method == 'POST':
+        form = ProductForm(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+            return redirect('product_list')
+    else:
+        form = ProductForm()
+    return render(request, 'product_create.html', {'form': form})
+
+def product_update(request, pk):
+    product = Product.objects.get(pk=pk)
+    if request.method == 'POST':
+        form = ProductForm(request.POST, request.FILES, instance=product)
+        if form.is_valid():
+            form.save()
+            return redirect('product_list')
+    else:
+        form = ProductForm(instance=product)
+    return render(request, 'product_update.html', {'form': form})
